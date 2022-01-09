@@ -52,6 +52,7 @@
     <Compile Include="AccederDatos.Designer.cs">
       <DependentUpon>AccederDatos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clases\Persona.cs" />
     <Compile Include="Clases\Personas.cs" />
     <Compile Include="fmrGetPersonas.cs">
       <SubType>Form</SubType>
@@ -70,6 +71,9 @@
     </Compile>
     <Compile Include="frmConxPersona.Designer.cs">
       <DependentUpon>frmConxPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConxPersona_load.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEliminar.cs">
       <SubType>Form</SubType>

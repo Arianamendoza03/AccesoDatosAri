@@ -16,7 +16,7 @@ namespace AccesoDatos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmrGetPersonas ());
+            Application.Run(new fmrGetPersonas());
         }
     }
 }
